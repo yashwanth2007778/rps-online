@@ -1,0 +1,20 @@
+{
+  "name": "rps-online",
+  "version": "1.0.0",
+  "description": "Multiplayer Rock Paper Scissors",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["game", "socket.io", "multiplayer"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
