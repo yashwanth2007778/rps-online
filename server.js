@@ -89,6 +89,9 @@ function getWinner(p1Move, p2Move) {
 
   return "Player 2 wins";
 }
+app.get("/", (req, res) => {
+  res.send("RPS Server is running 🚀");
+});
 
 const PORT = process.env.PORT || 3000;
 
