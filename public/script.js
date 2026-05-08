@@ -1,5 +1,5 @@
 // ✅ Connect to Render backend
-const socket = io("https://rps-online-1.onrender.com");
+const socket = io();
 
 // ✅ Connection successful
 socket.on("connect", () => {
