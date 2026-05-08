@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://rps-online-1.onrender.com");
 
 let gameId = "";
 let playerName = "";
